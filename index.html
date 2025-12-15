@@ -1150,17 +1150,38 @@
           </div>
 
           <div class="scroll-section">
-        <div class="scroll-row">
-          <div class="scroll-track" id="campaignsTrack"></div>
+            <div class="scroll-row">
+              <div class="scroll-track" id="campaignsTrack"></div>
+            </div>
+          </div>
         </div>
+  </section>
+
+  <!-- HORIZONTAL SCROLL: BRANDS / PARTNERS -->
+  <section>
+    <div class="shell">
+      <div class="section-header">
+        <div class="eyebrow">Your brand, their campus</div>
+        <h2 class="section-title">
+          Real student ambassadors. Real campus presence.
+        </h2>
+        <p class="section-subtitle">
+          Swap these blocks with portraits or candid photos of your
+          ambassadors and creators. This horizontal scroll becomes your
+          ambassador “roster.”
+        </p>
       </div>
-<div class="scroll-section">
+
+      <div class="scroll-section">
         <div class="scroll-row">
           <div class="scroll-track" id="ambassadorsTrack"></div>
         </div>
       </div>
+    </div>
+  </section>
 
-<section>
+  <!-- PROCESS / HOW IT WORKS -->
+  <section>
     <div class="shell">
       <div class="section-header">
         <div class="eyebrow">How it works</div>
@@ -1508,7 +1529,7 @@
           s.lastT = t;
 
           // Slightly gentler easing -> smoother than abrupt speed changes
-          s.current += (s.target - s.current) * 0.035;
+          s.current += (s.target - s.current) * 0.06;
 
           const dx = s.current * dt;
           if (dx !== 0) {
